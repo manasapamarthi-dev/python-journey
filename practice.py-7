@@ -1,0 +1,68 @@
+LISTS_PROGRAMS
+# 1. Count Odd Numbers
+numbers = [1, 2, 3, 4, 5, 7]
+count = 0
+for num in numbers:
+    if num % 2 != 0:
+        count += 1
+print("Odd count:", count)
+
+
+# 2. Reverse List
+numbers = [1, 2, 3, 4]
+reversed_list = []
+for i in range(len(numbers)-1, -1, -1):
+    reversed_list.append(numbers[i])
+print("Reversed:", reversed_list)
+
+
+# 3. Max and Min
+numbers = [5, 2, 9, 1]
+max_num = numbers[0]
+min_num = numbers[0]
+for num in numbers:
+    if num > max_num:
+        max_num = num
+    if num < min_num:
+        min_num = num
+print("Max:", max_num)
+print("Min:", min_num)
+
+
+# 4. Find Duplicates
+numbers = [1, 2, 3, 2, 4, 1]
+duplicates = []
+for num in numbers:
+    if numbers.count(num) > 1 and num not in duplicates:
+        duplicates.append(num)
+print("Duplicates:", duplicates)
+
+
+# 5. Sum of Even Numbers
+numbers = [1, 2, 3, 4, 6]
+total = 0
+for num in numbers:
+    if num % 2 == 0:
+        total += num
+print("Even Sum:", total)
+
+
+# 6. Remove Duplicates
+numbers = [1, 2, 2, 3, 4, 4]
+unique = []
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+print("Unique:", unique)
+
+
+# 7. Second Largest
+numbers = [10, 20, 5, 8]
+largest = second = float('-inf')
+for num in numbers:
+    if num > largest:
+        second = largest
+        largest = num
+    elif num > second and num != largest:
+        second = num
+print("Second Largest:", second)
