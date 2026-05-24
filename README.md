@@ -238,4 +238,53 @@ Lists_programs(appliction):
 - In Day 7, I learned how to work with lists and apply logic to solve real-world problems like finding duplicates, reversing data, and filtering elements.
 - This improved my problem-solving skills and understanding of data handling in Python.
 
+## Day 9
+Tuples in Python:
+- Introduction to Tuples
+- Creating Tuples
+- Accessing Tuple Elements
+- Positive and Negative Indexing
+- Tuple Slicing
+- Tuple Concatenation
+- Tuple Repetition
+- Tuple Methods
+- Nested Tuples
+- Tuple Traversal
+- Tuple Packing and Unpacking
+- Immutable Nature of Tuples
+
+## Practice Programs
+- Create a Tuple
+- Access Tuple Elements
+- Negative Indexing
+- Tuple Slicing
+- Tuple Concatenation
+- Tuple Repetition
+- Count Method
+- Index Method
+- Length of Tuple
+- Check Element Exists
+- Reverse Tuple
+- Nested Tuple
+- Maximum and Minimum Value
+- Sum of Tuple Elements
+- Loop Through Tuple
+- Single Element Tuple
+- Difference Between Tuple and Integer
+- Convert Tuple to List
+- Sort Tuple Elements
+
+## Key Learnings
+- Learned how tuples store multiple values
+- Understood immutable data structure concept
+- Practiced indexing and slicing
+- Learned tuple methods like count() and index()
+- Improved looping and data handling skills
+- Understood difference between lists and tuples
+
+## Summary
+-Learned tuples in Python and practiced storing and accessing fixed data using immutable collections.
+-Improved understanding of indexing, slicing, looping, and tuple operations through multiple practice programs.
+
+
 
