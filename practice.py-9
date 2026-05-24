@@ -1,0 +1,208 @@
+## SETS-PROGRAMS
+
+# 1. Create a set
+numbers = {1, 2, 3, 4}
+print(numbers)
+
+# 2. Print unique values
+data = {1, 2, 2, 3, 4, 4, 5}
+print(data)
+
+# 3. Add element
+numbers = {1, 2, 3}
+numbers.add(4)
+print(numbers)
+
+# 4. Remove element
+numbers = {1, 2, 3, 4}
+numbers.remove(3)
+print(numbers)
+
+# 5. Loop through set
+fruits = {"apple", "banana", "mango"}
+
+for i in fruits:
+    print(i)
+
+# 6. Check value exists
+numbers = {10, 20, 30}
+print(20 in numbers)
+
+# 7. Find length of set
+numbers = {1, 2, 3, 4, 5}
+print(len(numbers))
+
+# 8. Clear set
+numbers = {1, 2, 3}
+numbers.clear()
+print(numbers)
+
+# 9. Union of two sets
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a | b)
+
+# 10. Intersection of two sets
+a = {1, 2, 3}
+b = {2, 3, 4}
+
+print(a & b)
+
+# 11. Difference between sets
+a = {1, 2, 3}
+b = {2, 3, 4}
+
+print(a - b)
+
+# 12. Remove duplicates from list using set
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+result = list(set(numbers))
+
+print(result)
+
+# 13. Convert set to list
+data = {1, 2, 3, 4}
+
+result = list(data)
+
+print(result)
+
+# 14. Find maximum value
+numbers = {10, 45, 2, 89, 5}
+
+print(max(numbers))
+
+# 15. Find minimum value
+numbers = {10, 45, 2, 89, 5}
+
+print(min(numbers))
+
+# 16. Update multiple elements
+numbers = {1, 2}
+
+numbers.update([3, 4, 5])
+
+print(numbers)
+
+# 17. Discard element
+numbers = {1, 2, 3}
+
+numbers.discard(2)
+
+print(numbers)
+
+# 18. Pop random element
+numbers = {1, 2, 3, 4}
+
+numbers.pop()
+
+print(numbers)
+
+# 19. Copy set
+a = {1, 2, 3}
+
+b = a.copy()
+
+print(b)
+
+# 20. Empty set creation
+data = set()
+
+print(type(data))
+
+# 21. Check two sets are equal
+a = {1, 2, 3}
+b = {3, 2, 1}
+
+print(a == b)
+
+# 22. Find common elements using intersection()
+a = {10, 20, 30}
+b = {20, 30, 40}
+
+print(a.intersection(b))
+
+# 23. Find union using union()
+a = {1, 2}
+b = {3, 4}
+
+print(a.union(b))
+
+# 24. Check subset
+a = {1, 2}
+b = {1, 2, 3, 4}
+
+print(a.issubset(b))
+
+# 25. Check superset
+a = {1, 2, 3, 4}
+b = {1, 2}
+
+print(a.issuperset(b))
+
+# 26. Find symmetric difference
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a ^ b)
+
+# 27. Remove duplicates from string
+text = "programming"
+
+result = set(text)
+
+print(result)
+
+# 28. Count unique elements
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+print(len(set(numbers)))
+
+# 29. Iterate using enumerate
+data = {"apple", "banana", "mango"}
+
+for index, value in enumerate(data):
+    print(index, value)
+
+# 30. Create frozen set
+numbers = frozenset([1, 2, 3, 4])
+
+print(numbers)
+
+# 31. Check disjoint sets
+a = {1, 2}
+b = {3, 4}
+
+print(a.isdisjoint(b))
+
+# 32. Convert tuple to set
+data = (1, 2, 2, 3)
+
+result = set(data)
+
+print(result)
+
+# 33. Remove all duplicates from mixed list
+data = [1, 1, 2, 3, 3, 4, 5, 5]
+
+unique = set(data)
+
+print(unique)
+
+# 34. Find even numbers using set comprehension
+numbers = {1, 2, 3, 4, 5, 6}
+
+even = {i for i in numbers if i % 2 == 0}
+
+print(even)
+
+# 35. Find vowels in string using set
+text = "python programming"
+
+vowels = {'a', 'e', 'i', 'o', 'u'}
+
+result = {i for i in text if i in vowels}
+
+print(result)
