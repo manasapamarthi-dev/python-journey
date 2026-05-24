@@ -238,7 +238,7 @@ Lists_programs(appliction):
 - In Day 7, I learned how to work with lists and apply logic to solve real-world problems like finding duplicates, reversing data, and filtering elements.
 - This improved my problem-solving skills and understanding of data handling in Python.
 
-## Day 9
+## Day 8
 Tuples in Python:
 - Introduction to Tuples
 - Creating Tuples
