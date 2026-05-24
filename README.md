@@ -286,5 +286,81 @@ Tuples in Python:
 -Learned tuples in Python and practiced storing and accessing fixed data using immutable collections.
 -Improved understanding of indexing, slicing, looping, and tuple operations through multiple practice programs.
 
+## Day 9
+Sets in Python:
+- Introduction to Sets
+- Creating Sets
+- Empty Set Creation
+- Unique Values in Sets
+- Adding Elements
+- Updating Multiple Elements
+- Removing Elements
+- remove() vs discard()
+- pop() Method
+- clear() Method
+- Looping Through Sets
+- Membership Operators
+- Set Operations
+  - Union
+  - Intersection
+  - Difference
+  - Symmetric Difference
+- Subset and Superset
+- Disjoint Sets
+- frozenset()
+- Set Comprehension
+- Converting List/Tuple/String to Set
+
+## Practice Programs
+- Create a Set
+- Print Unique Values
+- Add Element
+- Remove Element
+- Loop Through Set
+- Check Element Exists
+- Find Length of Set
+- Clear Set
+- Union of Two Sets
+- Intersection of Two Sets
+- Difference Between Sets
+- Remove Duplicates from List
+- Convert Set to List
+- Find Maximum Value
+- Find Minimum Value
+- Update Multiple Elements
+- Discard Element
+- Pop Random Element
+- Copy Set
+- Empty Set Creation
+- Check Two Sets are Equal
+- Find Common Elements
+- Union Using union()
+- Check Subset
+- Check Superset
+- Symmetric Difference
+- Remove Duplicates from String
+- Count Unique Elements
+- Enumerate Set
+- Create Frozen Set
+- Check Disjoint Sets
+- Convert Tuple to Set
+- Remove Duplicates from Mixed List
+- Set Comprehension for Even Numbers
+- Find Vowels Using Set
+
+## Key Learnings
+- Learned how sets store only unique values
+- Understood unordered collections
+- Practiced adding and removing elements
+- Learned set operations like union and intersection
+- Understood duplicate removal using sets
+- Improved logical thinking using set operations
+- Learned difference between remove() and discard()
+- Practiced real-world duplicate handling concepts
+
+## Summary
+- Learned Python Sets and practiced storing unique values using unordered collections.
+- Implemented multiple programs on duplicate removal, set operations, membership checking, and logical comparisons.
+- Improved understanding of data collections and problem-solving using sets.
 
 
