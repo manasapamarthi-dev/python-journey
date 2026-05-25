@@ -8,7 +8,7 @@
 ## 🚀 Skills
 
 ### ✔ Completed
-- Python (Basics, OOP, Sets, Dictionaries)
+- Python 
 - HTML, CSS
 
 ### 🔄 Currently Learning
