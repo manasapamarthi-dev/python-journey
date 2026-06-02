@@ -1,5 +1,5 @@
 """
-Python Data Structures Practice
+Python Learning Lab - Phase 2: Data structures
 
 Topics Covered:
 - Lists & Slicing
