@@ -1,5 +1,5 @@
 """
-python-fundamentals - Phase 1:programming Fundamentals
+python learning lab - Phase 1:programming Fundamentals
 
 Topics Covered:
 - Variables & Type Casting
